@@ -2,7 +2,7 @@ type Product = {
   name: string;
   price: number;
   quantity: number;
-  discount?: number; // optional
+  discount?: number;
 };
 
 function calculateTotalPrice(products: Product[]): number {
@@ -24,4 +24,3 @@ const products = [
   { name: 'Bag', price: 1100, quantity: 1, discount: 20 },
 ];
 
-console.log(calculateTotalPrice(products));
