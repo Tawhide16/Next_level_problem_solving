@@ -21,5 +21,3 @@ function getUniqueValues(arr1: (number | string)[], arr2: (number | string)[]): 
 
 const array1 = [1, 2, 3, 4, 5];
 const array2 = [3, 4, 5, 6, 7];
-
-console.log(getUniqueValues(array1, array2));
