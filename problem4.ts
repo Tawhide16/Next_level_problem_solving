@@ -8,9 +8,9 @@ function filterByRating(items: Item[]): Item[] {
 }
 
 const books = [
-  { title: "Book A", rating: 4.5 },
-  { title: "Book B", rating: 3.2 },
-  { title: "Book C", rating: 5.0 },
+  { title: "Atomic habit", rating: 4.5 },
+  { title: "Habits power", rating: 3.2 },
+  { title: "48 of low", rating: 5.0 },
 ];
 
 
