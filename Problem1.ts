@@ -15,5 +15,8 @@ function format(value: string | number | boolean)
 
   return value;
 }
+// Example usages:console.log(format("hello")); // Output: "HELLO"
+console.log(format(5));       // Output: 50
+console.log(format(true));    // Output: false
 
 
