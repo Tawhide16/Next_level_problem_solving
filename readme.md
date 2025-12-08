@@ -4,8 +4,12 @@ What are some differences between interfaces and types in TypeScript?
 
 interface সাধারণত object বা object-এর মতো structure (যেমন array-এর ভিতরে object) ডিফাইন করতে ব্যবহার করা হয়।
 
+
+
 What is the use of the keyof keyword in TypeScript? Provide an example.
 উত্তর: keyof এর ব্যবহার keyof কোনো অবজেক্টের key বা property-গুলোর টাইপ বের করতে ব্যবহার করা হয়। let prop = keyof { name: "Ranajit"; id: 321 } এখন prop এর মাধ্যমে এই অবজেক্টের সব key (যেমন "name" এবং "id") পাওয়া যাবে।
+
+
 
 Explain the difference between any, unknown, and never types in TypeScript.
 উত্তর:
